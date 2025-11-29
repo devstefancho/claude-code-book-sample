@@ -1,0 +1,16 @@
+보안 코드 리뷰 클로드 코드 스킬 만들어줘
+## 도메인
+- <도메인>
+
+## 환경
+- 언어: <Python/TypeScript/Kotlin/Lua>
+- 프레임워크: <Django/FastAPI/React/Spring>
+- 데이터베이스: <PostgreSQL/MongoDB/Redis/Supabase/Railway>
+- 배포: <AWS/Docker/Kubernetes/Vercel>
+
+## 요구사항
+1. HIGH/MEDIUM/LOW로 우선순위 분류
+2. 각 취약점마다 쉽고 간단한 예시를 제공
+   - 취약한 코드 예시
+   - 안전한 코드 예시
+

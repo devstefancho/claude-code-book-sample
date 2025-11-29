@@ -1,0 +1,39 @@
+<Basic Info>
+- purpose: 커스텀 커맨드 만들기
+- command name: plan
+- custom command language: English
+- frontmatter: argument-hint, description, model
+- IMPORTANT: plan command의 문서 구조는 반드시 Structure 를 따를 것
+</Basic Info>
+
+<Structure>
+## Arguments
+$1 (선택사항, 한글/영문 지원)
+
+## Instructions
+1. **`docs/{current_branch}/spec.md` 읽기**: 기능 요구 사항 파악
+2. **기술스택 결정**:
+   - 사용자 제공시 해당 스택 사용
+   - 미제공시 프로젝트 구조 분석 후 적절한 기술 선택
+3. **`docs/{current_branch}/plan.md` 생성**:
+   - Original Tech Stack Request (사용자 입력 기록)
+   - Technology Stack (사용할 기술, 프레임워크, 라이브러리)
+   - Architecture Overview (고수준 시스템 설계)
+   - Data Models (DB 스키마, 데이터 구조)
+   - API Design (엔드포인트, 요청/응답, 해당시)
+   - Component Structure (컴포넌트 계층, 해당시)
+   - State Management (데이터 흐름)
+   - Security Considerations (인증, 인가, 데이터 보호)
+   - Testing Strategy (단위/통합/E2E 테스트)
+   - Deployment Plan (빌드, 환경 구성)
+   - Dependencies (패키지와 버전)
+
+## Report
+1. 기술 선택 근거와 주요 아키텍처 결정사항 요약
+2. 다음 단계로 `/tasks` 실행하도록 안내
+
+## Quality
+- 기술적으로 실현 가능하고 명세서와 일치
+- 구현에 충분히 상세하고 모범 사례 준수
+</Structure>
+
