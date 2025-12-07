@@ -1,6 +1,6 @@
 <Basic Info>
 - purpose: 커스텀 커맨드 만들기
-- command name: spec
+- command name: sdd:spec
 - custom command language: English
 - frontmatter: argument-hint, description, model
 - IMPORTANT: spec command의 문서 구조는 반드시 Structure 를 따를 것
@@ -24,7 +24,7 @@ $1 (한글/영문 지원)
 
 ## Report
 1. 핵심 내용을 요약해서 보여줌
-2. 다음 단계로 `/plan [tech-stack]` 실행하도록 안내
+2. 다음 단계로 `/sdd:plan [tech-stack]` 실행하도록 안내
 
 ## Quality
 - 명확하고 모호하지 않으며 완전함

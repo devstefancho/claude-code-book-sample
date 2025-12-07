@@ -1,6 +1,6 @@
 <Basic Info>
 - purpose: 커스텀 커맨드 만들기
-- command name: implement
+- command name: sdd:implement
 - custom command language: English
 - frontmatter: argument-hint, description, model
 - IMPORTANT: implement command의 문서 구조는 반드시 Structure 를 따를 것

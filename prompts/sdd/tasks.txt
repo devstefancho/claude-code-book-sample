@@ -1,6 +1,6 @@
 <Basic Info>
 - purpose: 커스텀 커맨드 만들기
-- command name: tasks
+- command name: sdd:tasks
 - custom command language: English
 - frontmatter: argument-hint, description, model
 - IMPORTANT: tasks command의 문서 구조는 반드시 Structure 를 따를 것
@@ -21,7 +21,7 @@ $1 (선택사항, 한글/영문 지원)
 
 ## Report
 1. 총 작업 수, 그룹 수, 각 작업 요약(ID, 설명, 목적, 필수여부), 각 그룹의 복잡도(Low/Medium/High)
-2. 다음 단계로 `/implement [--all]` 실행하도록 안내
+2. 다음 단계로 `/sdd:implement [--all]` 실행하도록 안내
 
 ## Quality
 - 명세와 계획의 모든 측면 포괄
