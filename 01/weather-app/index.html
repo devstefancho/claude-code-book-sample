@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="weather-card" id="weatherCard">
+            <!-- Header -->
+            <header class="weather-header">
+                <h1 class="city-name" id="cityName">서울</h1>
+                <p class="current-temp" id="currentTemp">5°</p>
+                <p class="condition" id="condition">맑음</p>
+                <p class="high-low" id="highLow">최고:8° 최저:-2°</p>
+            </header>
+
+            <!-- Hourly Forecast -->
+            <section class="hourly-section">
+                <div class="section-header">
+                    <span class="icon">🕐</span>
+                    <span>시간별 일기예보</span>
+                </div>
+                <div class="hourly-scroll" id="hourlyScroll">
+                    <!-- Hourly items will be inserted here -->
+                </div>
+            </section>
+
+            <!-- Weekly Forecast -->
+            <section class="weekly-section">
+                <div class="section-header">
+                    <span class="icon">📅</span>
+                    <span>7일간의 일기예보</span>
+                </div>
+                <div class="weekly-list" id="weeklyList">
+                    <!-- Weekly items will be inserted here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- City Indicator -->
+        <div class="city-indicator">
+            <button class="nav-btn" id="prevCity">◀</button>
+            <div class="dots" id="cityDots">
+                <!-- Dots will be inserted here -->
+            </div>
+            <button class="nav-btn" id="nextCity">▶</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
