@@ -56,6 +56,10 @@
 - 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-02/prompts.md
 - 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-02/code.md
 
+### Chapter 03
+- 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-03/prompts.md
+- 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-03/code.md
+
 ### Chapter 04
 - 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-04/prompts.md
 - 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-04/code.md
@@ -63,10 +67,6 @@
 ### Chapter 05
 - 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-05/prompts.md
 - 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-05/code.md
-
-### Chapter 06
-- 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-06/prompts.md
-- 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-04/chapter-06/code.md
 
 ## Part 05. 리팩터링의 부담을 덜어주는 안전장치들
 

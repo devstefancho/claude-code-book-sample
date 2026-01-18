@@ -1,18 +1,5 @@
 {
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'export GIT_BRANCH=$(git branch --show-current)' >> \"$CLAUDE_ENV_FILE\""
-          }
-        ]
-      }
-    ]
-  },
-  "env": {
-    "TEST_ENV": "222"
-  },
+  "hooks": {},
+  "env": {},
   "model": "opus"
 }
