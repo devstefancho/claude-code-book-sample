@@ -1,20 +1,29 @@
 # Chapter 02. 코드 모음
 
+## 소스 코드 준비와 패키지 설치
+
+```shell
+# 파일 위치: https://github.com/devstefancho/claude-code-book-sample/blob/main/06/kanban-board-refactoring-workflow.zip
+
+mkdir ~/kanban-board-refactoring-workflow
+
+unzip kanban-board-refactoring-workflow.zip -d ~/kanban-board-refactoring-workflow
+```
+
+```shell
+cd ~/kanban-board-refactoring-workflow
+
+npm install
+```
+
 ## 워크플로 파일 구조
 
 ```
-project/
-├── CLAUDE.md                          # 프로젝트 메모리
-├── .claude/
-│   ├── rules/                         # 규칙 파일들
-│   ├── skills/                        # 코드 리뷰 스킬들
-│   │   ├── strategic-code-reviewer/
-│   │   ├── component-design-reviewer/
-│   │   └── data-model-reviewer/
-│   └── commands/                      # 커스텀 슬래시 커맨드
-│       └── sdd/
-│           ├── spec.md
-│           ├── plan.md
-│           ├── tasks.md
-│           └── implement.md
+.claude/
+├── agents/                            # 서브 에이전트
+├── commands/                          # 커스텀 슬래시 커맨드
+├── rules/                             # 규칙 파일들
+└── skills/                            # 스킬
+    ├── refactor-setup/                # 리팩터링 환경 설정 스킬
+    └── supabase-setup/                # Supabase 설정 스킬
 ```
