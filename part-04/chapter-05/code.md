@@ -2,7 +2,7 @@
 
 ## 데이터 모델 리뷰 스킬 프론트매터
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/data-model-reviewer/SKILL.md
+파일 링크: [./samples/skills/data-model-reviewer/SKILL.md](./samples/skills/data-model-reviewer/SKILL.md)
 
 ```markdown
 ---
@@ -10,6 +10,14 @@ name: data-model-reviewer
 description: Analyze and Refactor TypeScript data models. Detect duplication, improve type safety, and validate relationships in interfaces/types.
 allowed-tools: Read, Grep, Glob
 ---
+```
+
+## 본문 요약
+
+```markdown
+# Data Model Reviewer
+
+TypeScript 타입 정의를 검토하여 SSOT, 타입 안전성, 데이터 관계의 품질을 확인합니다.
 ```
 
 ## 검사 원칙
@@ -33,6 +41,31 @@ allowed-tools: Read, Grep, Glob
 4. **문제 패턴 검색**: `Grep`으로 `any`, 매직 스트링, 중복 정의 탐지
 5. **체크리스트 기반 검토**: 아래 체크리스트 항목별로 검증
 6. **결과 출력**: examples.md의 출력 형식에 따라 리뷰 결과 제시
+```
+
+## 리뷰 체크리스트
+
+```markdown
+## 리뷰 체크리스트
+
+### 타입 안전성 (Type Safety)
+- [ ] `any` 타입을 사용하고 있지 않은가?
+- [ ] 매직 스트링(Magic String) 대신 Literal Union이나 Enum을 사용했는가?
+- [ ] Optional(`?`) 처리가 꼭 필요한 곳에만 사용되었는가?
+
+### 구조 및 관계 (Structure & Relationship)
+- [ ] 관련된 데이터가 적절히 그룹화되었는가?
+- [ ] 중복된 데이터 정의가 없는가? (SSOT 위반)
+- [ ] ID 필드의 타입이 프로젝트 전반에서 일관적인가?
+- [ ] 중첩 깊이가 적절한가? (권장: 3단계 이하)
+```
+
+## 출력 형식
+
+```markdown
+## 출력 형식
+
+[examples.md](examples.md)의 "리뷰 출력 형식" 섹션을 따를 것
 ```
 
 ## 매직 스트링 vs Union Type
@@ -88,3 +121,7 @@ interface Comment {
   author: UserSummary; // 필요한 정보만 객체로 묶거나 ID로 참조
 }
 ```
+
+## 예시 파일
+
+파일 링크: [./samples/skills/data-model-reviewer/examples.md](./samples/skills/data-model-reviewer/examples.md)
