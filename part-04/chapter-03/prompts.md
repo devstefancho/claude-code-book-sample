@@ -2,8 +2,6 @@
 
 ## 보안 코드 리뷰 스킬 템플릿
 
-프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security-template.txt
-
 ```
 [나]: 보안 코드 리뷰 클로드 코드 스킬 만들어줘
 
@@ -24,8 +22,6 @@
 ```
 
 ## 칸반보드 프로젝트용 프롬프트
-
-프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security.txt
 
 ```
 [나]: 보안 코드 리뷰 클로드 코드 스킬 만들어줘
