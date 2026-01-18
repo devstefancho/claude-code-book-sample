@@ -1,4 +1,4 @@
-# Chapter 04. Security 리뷰 스킬 개발
+# Chapter 03. Security 리뷰 스킬 개발
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

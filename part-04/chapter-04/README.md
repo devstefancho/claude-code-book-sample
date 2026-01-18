@@ -1,4 +1,4 @@
-# Chapter 05. 프론트엔드 스킬 개발하기, React 컴포넌트 리뷰 스킬
+# Chapter 04. 프론트엔드 스킬 개발하기, React 컴포넌트 리뷰 스킬
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 

@@ -1,4 +1,4 @@
-# Chapter 06. 데이터 모델 개선을 위한 스킬 개발하기
+# Chapter 05. 데이터 모델 개선을 위한 스킬 개발하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 
