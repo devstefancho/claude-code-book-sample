@@ -1,55 +1,35 @@
-# Chapter 04. 프롬프트 모음
+# Chapter 05. 프롬프트 모음
 
-## 보안 코드 리뷰 스킬 템플릿
-
-프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security-template.txt
+## 스킬 확인하기
 
 ```
-[나]: 보안 코드 리뷰 클로드 코드 스킬 만들어줘
+[나]: show your available skills
 
-## 도메인
-- <도메인>
+[AI]: Available Skills
 
-## 환경
-- 언어: **<Python/TypeScript/Kotlin/Lua>**
-- 프레임워크: **<Django/FastAPI/React/Spring>**
-- 데이터베이스: **<PostgreSQL/MongoDB/Redis/Supabase/Railway>**
-- 배포: **<AWS/Docker/Kubernetes/Vercel>**
+  1. component-design-reviewer
+  용도: React.js 컴포넌트 설계 리뷰
+  - SRP (Single Responsibility Principle) 검토
+  - Props 설계 검토
+  - Composition 패턴 검토
+  - 재사용성 검토
+  - Custom Hooks 검토
 
-## 요구사항
-1. HIGH/MEDIUM/LOW로 우선순위 분류
-2. 각 취약점마다 쉽고 간단한 예시를 제공
-   - 취약한 코드 예시
-   - 안전한 코드 예시
+  스킬을 사용하려면 "컴포넌트 설계 리뷰해줘"라고 요청해 주세요.
 ```
 
-## 칸반보드 프로젝트용 프롬프트
-
-프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security.txt
+## 컴포넌트 탐색
 
 ```
-[나]: 보안 코드 리뷰 클로드 코드 스킬 만들어줘
+[나]: 현재 칸반보드 관련된 컴포넌트들이 뭐가 있는지 확인해봐
 
-## 도메인
-- 칸반보드 웹 개발
-
-## 환경
-- 언어: **Typescript**
-- 프레임워크: **Nextjs**
-- 데이터베이스: **Supabase**
-- 배포: **Vercel**
-
-## 요구사항
-1. HIGH/MEDIUM/LOW로 우선순위 분류
-2. 각 취약점마다 쉽고 간단한 예시를 제공
-   - 취약한 코드 예시
-   - 안전한 코드 예시
+[AI]: Explore(Explore kanban components)
 ```
 
-## 보안 코드 리뷰 스킬 사용
+## 컴포넌트 리뷰 요청
 
 ```
-[나]: web-security-reviewer 스킬 사용해서 kanban-app 코드 리뷰해 줘
+[나]: 핵심 컴포넌트에 대해서 컴포넌트 리뷰해줘
 
-[AI]: Kanban-App 웹 보안 검토 보고서
+[AI]: 핵심 컴포넌트들을 읽고 리뷰를 진행하겠습니다.
 ```

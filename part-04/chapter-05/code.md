@@ -1,27 +1,25 @@
-# Chapter 05. 코드 모음
+# Chapter 06. 코드 모음
 
-## 컴포넌트 리뷰 스킬 프론트매터
+## 데이터 모델 리뷰 스킬 프론트매터
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/component-design-reviewer/SKILL.md
+파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/data-model-reviewer/SKILL.md
 
 ```markdown
 ---
-name: component-design-reviewer
-description: Reviews React components and provides improvement suggestions. Use when you need code review, component review, structure improvement, refactoring, or component separation.
+name: data-model-reviewer
+description: Analyze and Refactor TypeScript data models. Detect duplication, improve type safety, and validate relationships in interfaces/types.
 allowed-tools: Read, Grep, Glob
 ---
 ```
 
-## 5가지 검사 원칙
+## 검사 원칙
 
 ```markdown
 ## 검사 원칙
 
-1. **SRP** - 하나의 컴포넌트, 하나의 역할
-2. **Props** - drilling 최소화, 명확한 interface
-3. **Composition** - 상속보다 합성
-4. **Reusability** - 공통 요소 추출
-5. **Custom Hooks** - UI/비즈니스 로직 분리
+1. **SSOT (Single Source of Truth)** - 데이터 정의의 중복 제거
+2. **Type Safety** - any 지양, Union/Enum 활용
+3. **Relationship** - 데이터 간 관계의 명확성
 ```
 
 ## Instructions
@@ -29,13 +27,64 @@ allowed-tools: Read, Grep, Glob
 ```markdown
 ## Instructions
 
-1. Read로 대상 컴포넌트 파일 읽기
-2. 5가지 원칙별로 체크리스트 기반 분석
-3. Grep으로 props drilling, hooks 패턴 검색
-4. 컴포넌트별 리포트 생성 (Critical/Warning/Suggestion)
-5. 문제마다 "문제 코드" vs "개선 코드" 예시 제공
+1. **대상 확인**: 사용자가 특정 파일/디렉토리를 지정한 경우 해당 대상에서 검토, 미지정 시 프로젝트 전체 탐색
+2. **타입 파일 탐색**: `Glob`으로 `**/types/**/*.ts`, `**/*.d.ts` 등 타입 정의 파일 찾기
+3. **타입 정의 분석**: `Read`로 파일 읽고 interface/type 정의 확인
+4. **문제 패턴 검색**: `Grep`으로 `any`, 매직 스트링, 중복 정의 탐지
+5. **체크리스트 기반 검토**: 아래 체크리스트 항목별로 검증
+6. **결과 출력**: examples.md의 출력 형식에 따라 리뷰 결과 제시
 ```
 
-## 예시 파일
+## 매직 스트링 vs Union Type
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/component-design-reviewer/examples.md
+### Bad
+
+```ts
+interface Task {
+  id: string;
+  title: string;
+  status: string; // "TODO", "DONE" 등 오타 발생 가능
+}
+```
+
+### Good
+
+```ts
+type TaskStatus = 'TODO' | 'IN_PROGRESS' | 'DONE';
+
+interface Task {
+  id: string;
+  title: string;
+  status: TaskStatus; // 자동완성 지원 및 타입 안전성 확보
+}
+```
+
+## 데이터 중복 vs 참조
+
+### Bad
+
+```ts
+interface Comment {
+  id: string;
+  content: string;
+  authorName: string;  // User 정보가 변경되면 불일치 발생 위험
+  authorEmail: string;
+  authorAvatar: string;
+}
+```
+
+### Good
+
+```ts
+interface UserSummary {
+  id: string;
+  name: string;
+  avatarUrl: string;
+}
+
+interface Comment {
+  id: string;
+  content: string;
+  author: UserSummary; // 필요한 정보만 객체로 묶거나 ID로 참조
+}
+```
