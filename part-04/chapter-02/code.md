@@ -171,6 +171,39 @@ function handleOrder(order: Order) {
 }
 ```
 
+### Bad 케이스 (예외처리가 붙는 경우)
+
+```typescript
+// 🤖 만능 로봇이 예외상황까지 모두 처리하려 하면...
+function handleOrder(order: Order) {
+  let coffee;
+  let price;
+
+  // 1. 커피 만들기 + 예외처리
+  try {
+    coffee = brewCoffee(order.coffeeType);
+  } catch (error) {
+    logger.error('커피 제조 실패', { coffeeType: order.coffeeType, error });
+    throw new CoffeeBrewError('원두가 부족하거나 기계 오류');
+  }
+
+  // 2. 가격 계산하기 + 예외처리
+  try {
+    price = coffee.basePrice;
+    if (order.size === 'large') price *= 1.5;
+    if (order.hasMilk) price += 500;
+    if (price < 0 || price > 100000) {
+      throw new Error('비정상적인 가격');
+    }
+  } catch (error) {
+    logger.error('가격 계산 실패', { order, error });
+    throw new PriceCalculationError('가격 정책 오류');
+  }
+
+  // 아래 계속 되는 예외처리 상황의 발생...
+}
+```
+
 ### Good 케이스
 
 ```typescript
@@ -212,5 +245,19 @@ function handleOrder(order: Order) {
   saveOrder(order.id, price);
   notifyCustomer(order.email, price);
   return { coffee, price };
+}
+```
+
+### Good 케이스 (예외처리가 필요한 경우)
+
+```typescript
+// ☕ 바리스타: 커피 제조 예외만 처리
+function makeCoffee(coffeeType: string): Coffee {
+  try {
+    return brewCoffee(coffeeType);
+  } catch (error) {
+    logger.error('커피 제조 실패', { coffeeType, error });
+    throw new CoffeeBrewError('원두가 부족하거나 기계 오류');
+  }
 }
 ```
