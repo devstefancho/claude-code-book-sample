@@ -3,16 +3,16 @@
 ## 소스 코드 준비와 패키지 설치
 
 ```shell
-# 파일 위치: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-06/chapter-03/samples/kanban-board-refactoring-workflow.zip
+# 1. 실습용 폴더 다운로드
+npx degit devstefancho/claude-code-book-sample/part-06/chapter-03/samples/kanban-board-refactoring-workflow ~/kanban-board-refactoring-workflow
 
-mkdir ~/kanban-board-refactoring-workflow
-
-unzip kanban-board-refactoring-workflow.zip -d ~/kanban-board-refactoring-workflow
-```
-
-```shell
+# 2. git 초기화
 cd ~/kanban-board-refactoring-workflow
+git init
+git add .
+git commit -m "Initial commit"
 
+# 3. 패키지 설치
 npm install
 ```
 
