@@ -122,6 +122,35 @@ interface Comment {
 }
 ```
 
+## 출력 형식 작성
+
+````markdown
+## 리뷰 출력 형식
+
+### 요약
+
+| 항목         | 상태    |
+| ------------ | ------- |
+| SSOT         | ✅ / ⚠️ |
+| Type Safety  | ✅ / ⚠️ |
+| Relationship | ✅ / ⚠️ |
+
+### 발견된 이슈
+
+#### [심각도: High/Medium/Low] 이슈 제목
+
+- **파일**: `경로/파일명.ts:라인번호`
+- **문제**: 문제 설명
+- **제안**: 개선 방안
+
+```ts
+// 수정 전
+문제 코드
+
+// 수정 후
+개선 코드
+````
+
 ## 예시 파일
 
 파일 링크: [./samples/skills/data-model-reviewer/examples.md](./samples/skills/data-model-reviewer/examples.md)
