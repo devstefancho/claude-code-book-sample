@@ -3,7 +3,7 @@
 ## 소스 코드 준비와 패키지 설치
 
 ```shell
-# 파일 위치: https://github.com/devstefancho/claude-code-book-sample/blob/main/06/kanban-board-refactoring-workflow.zip
+# 파일 위치: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-06/chapter-03/samples/kanban-board-refactoring-workflow.zip
 
 mkdir ~/kanban-board-refactoring-workflow
 
