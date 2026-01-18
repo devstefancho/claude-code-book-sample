@@ -6,6 +6,11 @@
 claude --agent Plan
 ```
 
+```shell
+cd claude-refactor-demo
+claude --agent Plan
+```
+
 ## 세션 이어서 실행하기
 
 ```shell
