@@ -4,12 +4,15 @@
 
 ```
 [나]: @agent-general-purpose 를 사용해서 코드 분석해줘
+[나]: @agent-general-purpose 를 사용해서 add.js에 주석 작성해줘
+[나]: @agent-general-purpose 를 사용해서 클로드 코드의 서브 에이전트에 대해서 검색해서 간략하게 알려줘
 ```
 
 ## Plan 서브 에이전트 (읽기 전용)
 
 ```
 [나]: @agent-Plan 사용해서 리팩터링 계획 세워줘
+[나]: 이 계획대로 @agent-Plan 서브에이전트에서 리팩터링을 해줘
 ```
 
 ## Explore 서브 에이전트
