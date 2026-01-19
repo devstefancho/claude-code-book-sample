@@ -43,13 +43,13 @@ cd weather-app
 outer/ 에서 실행:
 
 ```shell
-> cd outer/
-> claude
+cd outer/
+claude
 ```
 
 outer/inner/ 에서 실행 (상위 CLAUDE.md도 함께 로드):
 
 ```shell
-> cd outer/inner/
-> claude
+cd outer/inner/
+claude
 ```
