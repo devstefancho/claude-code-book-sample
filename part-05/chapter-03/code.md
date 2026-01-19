@@ -7,7 +7,14 @@ claude --agent Plan
 ```
 
 ```shell
-cd claude-refactor-demo
+# 실습용 폴더 다운로드
+npx degit devstefancho/claude-code-book-sample/part-05/chapter-02/samples/claude-refactor-demo ~/claude-refactor-demo
+
+# git 초기화
+cd ~/claude-refactor-demo
+git init && git add . && git commit -m "Initial commit"
+
+# Plan 에이전트 실행
 claude --agent Plan
 ```
 
