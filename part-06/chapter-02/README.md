@@ -4,6 +4,10 @@
 
 리팩터링 워크플로에서 사용되는 실제 파일들의 역할과 구조를 알아봅니다.
 
+## 샘플 코드 위치
+
+https://github.com/devstefancho/claude-code-book-sample/tree/main/part-06/chapter-03/samples/kanban-board-refactoring-workflow
+
 ## 워크플로 파일 구조
 
 ### 메모리 파일
