@@ -32,6 +32,23 @@
 cd weather-app
 ```
 
+## Task ID 지정하여 공유하기
+
+```shell
+mkdir my-weather-app-1
+cd my-weather-app-1
+```
+
+```shell
+CLAUDE_CODE_TASK_LIST_ID=my-weather-app claude
+```
+
+```shell
+mkdir my-weather-app-2
+cd my-weather-app-2
+CLAUDE_CODE_TASK_LIST_ID=my-weather-app claude
+```
+
 ## 메모리 규칙 파일 디렉토리
 
 ```shell

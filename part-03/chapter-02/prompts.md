@@ -3,10 +3,13 @@
 ## Output Style 선택
 
 ```
-/output-style
+[나]
+/config
+Output Style
+[/나]
 ```
 
-Output Style을 선택하면 "Learning Refactoring Principles" 스타일로 리팩터링 원칙 학습이 가능합니다.
+/config를 실행하고 Output Style을 입력하면 Preferred output style 화면에서 방금 등록한 Output style을 선택할 수 있습니다.
 
 ## 단일 책임 원칙 (SRP)
 

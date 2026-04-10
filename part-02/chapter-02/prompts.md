@@ -6,6 +6,14 @@
 /mcp
 ```
 
+## MCP 연결 성공 확인
+
+```
+[나]: /mcp
+
+[AI]: Authentication successful. Connected to supabase.
+```
+
 ## 스펙 문서 만들기
 
 ```
@@ -42,4 +50,10 @@
 [나]: /sdd:implement --all
 
 [AI]: 구현을 시작합니다. 각 태스크를 순차적으로 실행합니다.
+```
+
+## 서버 실행 요청
+
+```
+[나]: 서버 실행해줘
 ```

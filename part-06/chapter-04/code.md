@@ -5,3 +5,9 @@
 ```shell
 cd ../kanban-board-refactor-split-store
 ```
+
+## 메인 워크트리로 이동
+
+```shell
+cd ../kanban-board-refactoring-workflow
+```

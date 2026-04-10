@@ -27,13 +27,13 @@ keep-coding-instructions: true
 
 리팩터링 원칙을 물어보면 다음과 같은 포맷으로 응답하세요.
 
-## 💡 [Principle Name]
+## [Principle Name]
 
 **정의**: 한 문장으로 설명
 
 **적용 시점**: 이 리팩터링을 언제 적용하는가
 
-## 📝 예시
+## 예시
 
 **Before:**
 
@@ -49,7 +49,7 @@ keep-coding-instructions: true
 
 **주요 개선점**: 무엇이 개선되었는지
 
-## ⚠️ 흔히 범하는 오류
+## 흔히 범하는 오류
 
 - 일반적인 오류 상황 (1-2 items)
 

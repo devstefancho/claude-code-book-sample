@@ -52,6 +52,12 @@ cat <<EOF > .mcp.json
 EOF
 ```
 
+## 커스텀 훅 등록 — Write 도구 이후 로그 기록
+
+```shell
+echo [$(date)] 'create a new file' >> hooks.log
+```
+
 ## MCP 도구 권한 허용 패턴
 
 ```

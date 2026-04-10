@@ -3,10 +3,15 @@
 ## 스킬 디렉터리 구조
 
 ```
-.claude/skills/my-skill/
+my-skill/
 ├── SKILL.md (필수)
+├── reference.md (선택)
 ├── examples.md (선택)
-└── resources/ (선택)
+├── scripts/
+│   └── helper.py (선택)
+└── templates/
+    ├── template1.md (선택)
+    └── template2.txt (선택)
 ```
 
 ## 번역 스킬 프론트매터

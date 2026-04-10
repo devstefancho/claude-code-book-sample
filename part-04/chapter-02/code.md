@@ -3,12 +3,30 @@
 ## 전략적 코드 리뷰 스킬 디렉터리 구조
 
 ```
-.claude/skills/strategic-code-reviewer/
-├── SKILL.md
-└── examples/
-    ├── dry.md
-    ├── kiss.md
-    └── srp.md
+strategic-code-reviewer/
+├── SKILL.md (필수)
+├── reference.md (선택)
+├── examples.md (선택)
+├── scripts/
+│   └── helper.py (선택)
+└── templates/
+    ├── template1.md (선택)
+    └── template2.txt (선택)
+```
+
+## 예시 파일 생성 명령어
+
+```shell
+mkdir strategic-code-reviewer/examples
+touch examples/dry.md
+```
+
+```shell
+touch examples/kiss.md
+```
+
+```shell
+touch examples/srp.md
 ```
 
 ## 프론트매터

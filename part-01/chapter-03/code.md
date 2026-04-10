@@ -90,3 +90,32 @@ claude --dangerously-skip-permissions
   }
 }
 ```
+
+## 저장한 세션 선택하여 재개
+
+```shell
+claude -r
+```
+
+## 세션 이름으로 바로 재개
+
+```shell
+claude -r hello
+```
+
+## 세션 이름 지정하여 시작
+
+```shell
+claude --name greeting-exchange
+```
+
+## 상태바 statusLine 설정 (settings.json)
+
+```json
+{
+  "statusLine": {
+    "type": "command",
+    "command": "/Users/사용자명/.claude/statusline.sh"
+  }
+}
+```
