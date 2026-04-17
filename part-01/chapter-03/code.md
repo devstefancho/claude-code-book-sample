@@ -10,12 +10,10 @@ claude --permission-mode dontAsk
 
 ```shell
 claude --permission-mode bypassPermissions
-```
 
-또는
+claude --dangerously-skip-permissions # 클로드 코드 실행시 bypassPermissions 모드로 시작합니다
 
-```shell
-claude --dangerously-skip-permissions
+claude --allow-dangerously-skip-permissions # 클로드 코드 실행후에 Shift + Tab으로 bypassPermissions를 사용할 수 있습니다
 ```
 
 ## 기본 모드 설정하기
