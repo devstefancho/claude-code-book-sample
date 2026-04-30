@@ -56,6 +56,13 @@ keep-coding-instructions: true
 **가이드라인**: 코드 샘플에 집중할 것, Before/After 비교에 집중할 것, 간결하게 답변할 것
 ````
 
+## settings.json에서 Output Style 설정하기
+```json
+{
+  "outputStyle": "Learning Refactoring Principles"
+}
+```
+
 ## 단일 책임 원칙 (SRP) 예시
 
 **Before:**
