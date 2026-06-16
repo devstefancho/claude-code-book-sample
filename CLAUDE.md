@@ -25,13 +25,13 @@ part-06/  # 리팩터링 워크플로 설계
 ## Sample Projects
 
 실행 가능한 샘플 프로젝트들은 `samples/` 디렉토리에 있습니다:
-- `part-05/chapter-03/samples/kanban-board/` - 칸반보드 프로젝트 (React + Supabase)
-- `part-06/chapter-03/samples/kanban-board-refactoring-workflow/` - 리팩터링 워크플로가 적용된 칸반보드
+- `part-05/chapter-18/samples/kanban-board/` - 칸반보드 프로젝트 (React + Supabase)
+- `part-06/chapter-21/samples/kanban-board-refactoring-workflow/` - 리팩터링 워크플로가 적용된 칸반보드
 
 ### kanban-board (part-05)
 
 ```bash
-cd part-05/chapter-03/samples/kanban-board
+cd part-05/chapter-18/samples/kanban-board
 npm install
 npm run dev
 ```
@@ -42,7 +42,7 @@ Next.js 15 + Supabase 기반 칸반보드.
 
 ```bash
 # 1. 실습용 폴더 다운로드
-npx degit devstefancho/claude-code-book-sample/part-06/chapter-03/samples/kanban-board-refactoring-workflow ~/kanban-board-refactoring-workflow
+npx degit devstefancho/claude-code-book-sample/part-06/chapter-21/samples/kanban-board-refactoring-workflow ~/kanban-board-refactoring-workflow
 
 # 2. git 초기화 및 패키지 설치
 cd ~/kanban-board-refactoring-workflow
