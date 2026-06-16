@@ -1,4 +1,4 @@
-# Chapter 03. 설정과 세션 관리
+# Chapter 03. 설정과 세션 관리하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

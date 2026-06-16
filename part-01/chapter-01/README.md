@@ -1,4 +1,4 @@
-# Chapter 01. 이 책에서 배우게 되는 것
+# Chapter 01. 클로드 코드 설치하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

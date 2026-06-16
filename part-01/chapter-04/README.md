@@ -1,4 +1,4 @@
-# Chapter 04. 아키텍처와 메모리
+# Chapter 04. 아키텍처와 메모리 이해하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

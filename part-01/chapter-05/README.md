@@ -1,4 +1,4 @@
-# Chapter 05. 확장 기능
+# Chapter 05. 확장 기능 알아보기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 
