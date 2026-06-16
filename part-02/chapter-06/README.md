@@ -1,4 +1,4 @@
-# Chapter 06. 칸반보드 프론트엔드 개발하기
+# Chapter 06. SDD로 칸반보드 프런트엔드 개발하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

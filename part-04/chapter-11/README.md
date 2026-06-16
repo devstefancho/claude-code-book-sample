@@ -1,41 +1,32 @@
-# Chapter 11. 스킬을 이해하고 간단한 번역 스킬 만들기
+# Chapter 11. 스킬로 전략적 코드 리뷰하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 
-스킬(Skill)의 개념과 기본 작성법을 알아봅니다.
+DRY, KISS, SRP 원칙을 적용한 전략적 코드 리뷰 스킬을 만들어봅니다.
 
-## 우리에게 익숙한 게임의 스킬
+## 전략적 코드 리뷰 스킬 디렉터리 구조
 
-게임의 스킬처럼 클로드 코드의 스킬도 특정 목적을 위한 도구입니다.
+디렉터리 구조와 코드 예시는 [code.md](./code.md)를 참고하세요.
 
-## 코드 리뷰 스킬의 종류
+## 전략적 코드 리뷰, SKILL.md 만들기
 
-- 불필요한 코드 확인 스킬
-- 반복된 코드 모듈화 스킬
-- 파일 구조를 잘 지키고 있는지 확인하는 스킬
+파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/SKILL.md
 
-## 스킬의 디렉터리 구조 이해하기
+## DRY 원칙 예시 작성하기
 
-스킬 디렉터리 구조는 [code.md](./code.md)를 참고하세요.
+파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/dry.md
 
-## 스킬의 점진적 공개 (Progressive Disclosure) 전략
+## KISS 원칙 예시 작성하기
 
-### Level 1: 메타데이터 (항상 로드)
-- name, description
-- 권장: 100 토큰 내외
+파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/kiss.md
 
-### Level 2: SKILL.md 본문 (스킬 사용 시 로드)
-- 권장: 5,000 토큰 내외
+## SRP 원칙 예시 작성하기
 
-### Level 3: 추가 리소스 (필요시 로드)
-- 제한 없음
+파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/srp.md
 
-## 간단한 번역 스킬 작성하기
+## Zero Shot 보다는 Few Shot이 효과적이다
 
-스킬 파일 경로: `.claude/skills/translate-politely/SKILL.md`
-
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/translate-politely/SKILL.md
-
-프론트매터, 본문, 전체 파일 내용은 [code.md](./code.md)를 참고하세요.
-
-프롬프트 예시는 [prompts.md](./prompts.md)를 참고하세요.
+- Zero-shot: 예시 없음
+- One-shot: 예시 1개
+- Few-shot: 예시 여러 개 (Anthropic 권장: 3~5개)
+- 코드 리뷰 스킬: 원칙당 2~3개 권장

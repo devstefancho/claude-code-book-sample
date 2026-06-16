@@ -1,32 +1,28 @@
-# Chapter 12. 전략 기반 코드 리뷰 스킬 개발
+# Chapter 12. 스킬로 코드 보안 지키기
 
-> 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
+> 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 
-DRY, KISS, SRP 원칙을 적용한 전략적 코드 리뷰 스킬을 만들어봅니다.
+보안 코드 리뷰 스킬을 만들어봅니다.
 
-## 전략적 코드 리뷰 스킬 디렉터리 구조
+## 언어와 도메인에 맞는 Security 항목의 필요성
 
-디렉터리 구조와 코드 예시는 [code.md](./code.md)를 참고하세요.
+보안은 도메인, 환경, 사용자 특성에 따라 달라집니다:
+- 도메인: 항공, 자동차, 금융, 의료, 소셜
+- 환경: 모바일, 워치, 클라우드
+- 사용자 특성: 개발자, 변호사, 일반 사용자
 
-## 전략적 코드 리뷰, SKILL.md 만들기
+## 보안 취약점 스킬, SKILL.md 만들기
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/SKILL.md
+### 프롬프트 템플릿
 
-## DRY 원칙 예시 작성하기
+프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security-template.txt
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/dry.md
+### 칸반보드 프로젝트용 프롬프트
 
-## KISS 원칙 예시 작성하기
+프롬프트 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/prompts/skills/security.txt
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/kiss.md
+프롬프트 예시는 [prompts.md](./prompts.md)를 참고하세요.
 
-## SRP 원칙 예시 작성하기
+## 보안 코드 리뷰 스킬 사용 및 결과
 
-파일 링크: https://github.com/devstefancho/claude-code-book-sample/blob/main/.claude/skills/strategic-code-reviewer/examples/srp.md
-
-## Zero Shot 보다는 Few Shot이 효과적이다
-
-- Zero-shot: 예시 없음
-- One-shot: 예시 1개
-- Few-shot: 예시 여러 개 (Anthropic 권장: 3~5개)
-- 코드 리뷰 스킬: 원칙당 2~3개 권장
+보안 이슈는 코드 작업이 있을 때마다 주기적으로 받는 것이 좋습니다.

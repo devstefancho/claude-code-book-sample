@@ -1,4 +1,4 @@
-# Chapter 22. 리팩터링 워크플로 실행하기
+# Chapter 22. 코드 품질 관리 워크플로 실행하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

@@ -1,4 +1,4 @@
-# Chapter 07. 데이터베이스 연동하기
+# Chapter 07. SDD로 데이터베이스 연동하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

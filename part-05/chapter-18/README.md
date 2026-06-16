@@ -1,4 +1,4 @@
-# Chapter 18. Plan 에이전트로 안전하게 분석하기
+# Chapter 18. 에이전트로 안전하게 분산하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 

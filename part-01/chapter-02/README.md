@@ -1,4 +1,4 @@
-# Chapter 02. 기본 사용법
+# Chapter 02. 클로드 핵심 기능 둘러보기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

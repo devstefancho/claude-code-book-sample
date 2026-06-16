@@ -1,4 +1,4 @@
-# Chapter 20. 리팩터링 워크플로에 필요한 실제 파일 알아보기
+# Chapter 20. 코드 품질 관리 워크플로 구축하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

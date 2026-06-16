@@ -245,10 +245,10 @@ interface Comment {
 ```
 ```
 
-## 스킬 설치 명령어 (챕터 14)
+## 스킬 설치 명령어 (챕터 13)
 
 ```shell
 mkdir ~/claude-skill-creator
 
-npx degit devstefancho/claude-code-book-sample/part-04/chapter-14/samples/skills/component-design-reviewer .claude/skills/component-design-reviewer --force
+npx degit devstefancho/claude-code-book-sample/part-04/chapter-13/samples/skills/component-design-reviewer .claude/skills/component-design-reviewer --force
 ```

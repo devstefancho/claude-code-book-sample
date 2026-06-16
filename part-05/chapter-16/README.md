@@ -1,4 +1,4 @@
-# Chapter 16. checkpoint로 리팩터링 되돌리기
+# Chapter 16. 체크포인트로 리팩터링 되돌리기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

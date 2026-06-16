@@ -1,4 +1,4 @@
-# Chapter 19. 리팩터링 워크플로를 구성하는 방법
+# Chapter 19. 코드 품질 관리 이해하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md)
 

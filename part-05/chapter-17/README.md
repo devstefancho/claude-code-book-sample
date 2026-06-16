@@ -1,4 +1,4 @@
-# Chapter 17. Git Worktree로 안전하게 실험하기
+# Chapter 17. 깃 워크트리로 안전하게 실험하기
 
 > 프롬프트: [prompts.md](./prompts.md) | 코드: [code.md](./code.md) | 샘플: [samples/](./samples/)
 
