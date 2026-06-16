@@ -99,3 +99,17 @@
 ### Chapter 22
 - 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-06/chapter-22/prompts.md
 - 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-06/chapter-22/code.md
+
+## Part 07. 하네스 엔지니어링
+
+### Chapter 23
+- 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-23/prompts.md
+- 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-23/code.md
+
+### Chapter 24
+- 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-24/prompts.md
+- 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-24/code.md
+
+### Chapter 25
+- 프롬프트: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-25/prompts.md
+- 코드: https://github.com/devstefancho/claude-code-book-sample/blob/main/part-07/chapter-25/code.md
