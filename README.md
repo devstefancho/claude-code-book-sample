@@ -10,6 +10,9 @@
 | 교보문고 | https://product.kyobobook.co.kr/detail/S000220119542 |
 | 골든래빗 | https://goldenrabbit.co.kr/books/9791124516195 |
 
+
+<img width="800" height="1094" alt="image" src="https://github.com/user-attachments/assets/225f5fb8-19a4-4672-9c2e-ee2ba838b34c" />
+
 ## 📖 목차
 
 **파트 01 · 클로드 코드 준비하기**
